@@ -16,7 +16,7 @@ Create Vagrantfile:
 Vagrant.configure("2") do |config|
 
   config.vm.define :node do |node|
-    node.vm.box = "tkak/centos-6.5-x86_64-golang"
+    node.vm.box = "tkak/centos-7.0-x86_64-golang"
   end
 
 end
@@ -39,9 +39,9 @@ $ zsh  ## If you want to use zsh
 
 ## Environment
 
-|Box                     |OS               |Tools                                 |
-|------------------------|-----------------|--------------------------------------|
-|centos-7.0-x86_64-golang|CentOS 7.0 x86_64|golang, git, vim, zsh + oh-my-zsh, ghq|
+|Box                     |OS               |Tools                                       |
+|------------------------|-----------------|--------------------------------------------|
+|centos-7.0-x86_64-golang|CentOS 7.0 x86_64|golang, git, vim, zsh + oh-my-zsh, ghq, peco|
 
 
 ## Requirement
