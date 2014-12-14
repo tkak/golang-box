@@ -29,7 +29,7 @@ $ vagrant up
 $ vagrant ssh
 ```
 
-Start Golang:
+Start Golang development:
 
 ```
 i.g.)
@@ -39,9 +39,9 @@ $ zsh  ## If you want to use zsh
 
 ## Environment
 
-|Box                     |OS               |Tools                                       |
-|------------------------|-----------------|--------------------------------------------|
-|centos-7.0-x86_64-golang|CentOS 7.0 x86_64|golang, git, vim, zsh + oh-my-zsh, ghq, peco|
+|Box                     |OS               |Tools                                                       |
+|------------------------|-----------------|------------------------------------------------------------|
+|centos-7.0-x86_64-golang|CentOS 7.0 x86_64|golang, git, vim + vim-bootstrap, zsh + oh-my-zsh, ghq, peco|
 
 
 ## Requirement
@@ -69,7 +69,10 @@ $ vagrant box list
 * [Golang](https://golang.org/)
 * [Packer](http://www.packer.io/)
 * [Bento](https://github.com/opscode/bento)
+* [vim-bootstrap](https://github.com/avelino/vim-bootstrap)
 * [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+* [ghq](https://github.com/motemen/ghq)
+* [peco](https://github.com/peco/peco)
 
 
 ## Contributing
